@@ -6,3 +6,9 @@ I reached the goal of completing more than 15 questions today.
 I will stop here for now and resume work on this project in the 3 - 5pm block tomorrow when the checker is released.
 In the meantime, I will work on my side project for the 3 - 5pm block today and the 8 - 12pm block tomorrow.
 
+11/30/2021
+
+12 is missing a check.
++ corrected all other previous questions
+- complete as many as time will allow today.
+
