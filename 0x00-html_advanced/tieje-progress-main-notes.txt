@@ -23,4 +23,5 @@ Missing checks
 31 - 1 - 
 33 - 1 - table
 34 - 1 - details
+36 - 2 - images
 - complete the advanced html project today
