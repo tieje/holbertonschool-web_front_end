@@ -26,4 +26,7 @@ Missing checks
 36 - 2 - images
 38 - 1 - video
 39 - 1 - audio
-- complete the advanced html project today
+40 - 1 - iframe website embedding
++ complete the advanced html project today
+    Good enough. I don't expect no less than a 93%
+
