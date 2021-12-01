@@ -14,6 +14,9 @@ Questions missing checks
 
 + corrected all other previous questions
 + complete as many as time will allow today.
-    - got up to Question 24. There are still 16 questions left of similar difficulty
+    + got up to Question 24. There are still 16 questions left of similar difficulty
         I should be able to complete them tomorrow. I have 6 hours, which is more than enough time. 
-
+12/1/2021
+Missing checks
+29 - 1
+- complete the advanced html project today
