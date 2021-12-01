@@ -21,4 +21,5 @@ Missing checks
 29 - 1 - blockquotes
 30 - 2 - blockquotes
 31 - 1 - 
+33 - 1 - table
 - complete the advanced html project today
