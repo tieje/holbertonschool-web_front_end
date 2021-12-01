@@ -24,5 +24,6 @@ Missing checks
 33 - 1 - table
 34 - 1 - details
 36 - 2 - images
-38 - 1- video
+38 - 1 - video
+39 - 1 - audio
 - complete the advanced html project today
