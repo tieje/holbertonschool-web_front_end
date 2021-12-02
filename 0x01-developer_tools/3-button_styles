@@ -1,0 +1,49 @@
+background-colorrgba(248, 249, 250, 0.976)
+border-bottom-colorrgb(248, 249, 250)
+border-bottom-left-radius8px
+border-bottom-right-radius8px
+border-bottom-stylesolid
+border-bottom-width2px
+border-image-outset0
+border-image-repeatstretch
+border-image-slice100%
+border-image-sourcenone
+border-image-width1
+border-left-colorrgb(248, 249, 250)
+border-left-stylesolid
+border-left-width2px
+border-right-colorrgb(248, 249, 250)
+border-right-stylesolid
+border-right-width2px
+border-top-colorrgb(248, 249, 250)
+border-top-left-radius8px
+border-top-right-radius8px
+border-top-stylesolid
+border-top-width2px
+box-sizingborder-box
+colorrgb(38, 42, 46)
+cursorpointer
+displayinline-block
+font-familyLato, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+font-size20px
+font-weight400
+height66px
+line-height30px
+padding-bottom16px
+padding-left28px
+padding-right28px
+padding-top16px
+text-aligncenter
+text-decoration-colorrgb(38, 42, 46)
+text-decoration-linenone
+text-decoration-stylesolid
+text-decoration-thicknessauto
+text-size-adjust100%
+transition-delay0s, 0s, 0s, 0s
+transition-duration0.15s, 0.15s, 0.15s, 0.15s
+transition-propertycolor, background-color, border-color, box-shadow
+transition-timing-functionease-in-out, ease-in-out, ease-in-out, ease-in-out
+user-selectnone
+vertical-alignmiddle
+width219.672px
+-webkit-tap-highlight-colorrgba(0, 0, 0, 0)
