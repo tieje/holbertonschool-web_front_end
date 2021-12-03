@@ -38,3 +38,5 @@ fixed
 29
 30
 31 was missing a check but I somehow still got 100%. Weird.
+36
+38 and 39 were graded as 100 despite missing a check
