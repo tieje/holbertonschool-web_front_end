@@ -2,3 +2,4 @@
 
 missing checks where n means "I will not attempt to retry"
 3 - 1 - css - n
+19 - 1 - imgs - n
