@@ -36,3 +36,5 @@ fixed
 12
 16
 29
+30
+31 was missing a check but I somehow still got 100%. Weird.
