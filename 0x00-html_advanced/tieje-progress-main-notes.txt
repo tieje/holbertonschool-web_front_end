@@ -30,3 +30,8 @@ Missing checks
 + complete the advanced html project today
     Good enough. I don't expect no less than a 93%
 
+12/3/2021
+
+fixed
+12
+16
