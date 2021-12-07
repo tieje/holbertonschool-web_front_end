@@ -59,7 +59,7 @@ a {
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
 }
-a:is(h1, h2, h3, h4, h5, h6) {
+:is(h1, h2, h3, h4, h5, h6) > a[href] {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }

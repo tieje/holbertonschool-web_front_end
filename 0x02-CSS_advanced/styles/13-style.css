@@ -59,19 +59,19 @@ a {
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
 }
-:is(h1, h2, h3, h4, h5, h6) > a {
+:is(h1, h2, h3, h4, h5, h6) > a[href] {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
 a {
   text-decoration: none;
 }
-a[href] {
+a[href^="http"] {
   font-style: italic;
 }
-a[href]:hover {
+a[href^="http"]:hover {
   text-decoration: underline;
 }
-a[href]:active {
+a[href^="http"]:active {
   background-color: var(--color-light-grey);
 }
