@@ -66,12 +66,12 @@ a {
 a {
   text-decoration: none;
 }
-a[href^="http"] {
+a[href] {
   font-style: italic;
 }
-a[href^="http"]:hover {
+a[href]:hover {
   text-decoration: underline;
 }
-a[href^="http"]:active {
+a[href]:active {
   background-color: var(--color-light-grey);
 }
