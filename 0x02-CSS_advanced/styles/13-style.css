@@ -63,10 +63,10 @@ a {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
-a {
+a[href] {
   text-decoration: none;
 }
-a[href] {
+a[href]:visited {
   font-style: italic;
 }
 a[href]:hover {
