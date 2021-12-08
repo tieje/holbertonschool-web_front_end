@@ -115,12 +115,8 @@ a[href]:active {
 nav {
   margin: 0;
   padding: 0;
-  text-align: center;
   list-style: none;
-}
-nav > ul,
-nav > ol {
-  all: initial;
+  text-align: center;
 }
 .nav .nav-item {
   font-family: var(--nav-item-font-family);
