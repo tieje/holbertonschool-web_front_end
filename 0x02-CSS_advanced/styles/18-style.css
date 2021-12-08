@@ -110,32 +110,33 @@ a[href]:active {
   padding: var(--footer-padding);
 }
 .navbar-menu {
-    float: right;
+  float: right;
 }
 nav {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
 }
-nav > ul, nav > ol {
-    all: initial
+nav > ul,
+nav > ol {
+  all: initial;
 }
-.nav.nav-item {
-    font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
-    font-size: var(--nav-item-font-size);
-    letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
+.nav .nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
 }
 .nav.nav-link {
-    display: block;
-    padding: 50% 0% 50%;
+  display: block;
+  padding: 0.5rem 1rem;
 }
-.nav.nav-link:hover {
-  background-color: var(--nav-item-link-hover);
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
 }
-
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
