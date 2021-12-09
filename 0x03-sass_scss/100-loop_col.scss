@@ -1,0 +1,7 @@
+/* columns and operators */
+$widths: (100%, 50%, 33.3333333333%, 25%);
+@for $a_width from 1 through 4 {
+    .col-#{$a_width} {
+        width: nth($widths , $a_width );
+    }
+}
