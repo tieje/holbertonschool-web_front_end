@@ -1,0 +1,21 @@
+/* margin mixin */
+$margin-body-default: 10px;
+$margin-div-default: 15px;
+
+@mixin body-mixins {
+    margin-left: $margin-body-default;
+    margin-right: $margin-body-default;
+}
+
+@mixin div-mixins {
+    margin-left: $margin-div-default;
+    margin-right: $margin-div-default;
+}
+
+body {
+    @include body-mixins;
+}
+
+div {
+    @include div-mixins;
+}
