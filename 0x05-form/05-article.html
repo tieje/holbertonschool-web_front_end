@@ -315,42 +315,46 @@
                 <legend class="visually-hidden">Your comment</legend>
                 <div class="form-group col-2-3">
                   <label for="your-title">Title</label>
-                  <span class="form-field-container">
-                    <input
-                      type="text"
-                      name="your-title"
-                      id="your-title"
-                      placeholder="e.g. I loved that article"
-                      pattern="[A-Za-zÀ-ž\s]{4,}"
-                      maxlength="75"
-                      autocomplete="on"
-                      accesskey="t"
-                      required="true"
-                    />
-                    <i class="form-field-icon"></i>
-                  </span>
-                  <p class="form-help">
-                    Title should be at least 4 characters and only contains
-                    letters
-                  </p>
+                  <div class="form-field">
+                    <span class="form-field-container">
+                      <input
+                        type="text"
+                        name="your-title"
+                        id="your-title"
+                        placeholder="e.g. I loved that article"
+                        pattern="[A-Za-zÀ-ž\s]{4,}"
+                        maxlength="75"
+                        autocomplete="on"
+                        accesskey="t"
+                        required="true"
+                      />
+                      <i class="form-field-icon"></i>
+                    </span>
+                    <p class="form-help">
+                      Title should be at least 4 characters and only contains
+                      letters
+                    </p>
+                  </div>
                 </div>
                 <div class="form-group col-2-3">
                   <label for="your-comment">Comment</label>
-                  <span class="form-field-container">
-                    <textarea
-                      name="your-comment"
-                      id="your-comment"
-                      placeholder="e.g. Write your comment here"
-                      minlength="10"
-                      accesskey="c"
-                      required="true"
-                      columns="30"
-                      rows="6"
-                    ></textarea>
-                  </span>
-                  <p class="form-field">
-                    Comment should be at least 10 characters
-                  </p>
+                  <div class="form-field">
+                    <span class="form-field-container">
+                      <textarea
+                        name="your-comment"
+                        id="your-comment"
+                        placeholder="e.g. Write your comment here"
+                        minlength="10"
+                        accesskey="c"
+                        required="true"
+                        columns="30"
+                        rows="6"
+                      ></textarea>
+                    </span>
+                    <p class="form-field">
+                      Comment should be at least 10 characters
+                    </p>
+                  </div>
                 </div>
                 <div class="form-group">
                   <button class="button button-primary">Post my comment</button>
