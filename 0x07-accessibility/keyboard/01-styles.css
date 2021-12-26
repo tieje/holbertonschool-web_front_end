@@ -839,10 +839,6 @@ ul.row {
   content: "";
 }
 
-.card-work:hover .card-title {
-  opacity: 1;
-}
-
 @media only screen and (max-width: 767px) {
   .card-work .card-inner {
     --text-color: var(--color-white);
