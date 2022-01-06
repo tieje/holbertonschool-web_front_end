@@ -1,0 +1,31 @@
+
+:root {
+    --main-color: #E0003C;
+    --main-contrast-color: #8C8C8C;
+}
+.btn-primary {
+  background-color: var(--main-color);
+}
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #BC1340;
+}
+.btn-outline-primary {
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+a, a:hover, a:focus {
+    color: var(--main-color);
+}
+.text-muted {
+    color: var(--main-contrast-color)
+}
+.card-header {
+    background-color: var(--main-color);
+    color: white;
+}
+.border-bottom {
+    border-bottom-color: var(--main-color);
+
+}

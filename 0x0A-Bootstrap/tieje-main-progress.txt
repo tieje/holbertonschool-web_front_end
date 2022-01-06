@@ -1,0 +1,5 @@
+1/6/2022
+Helpful links
+Dealing with visible and hidden blocks until responsive screen size.
+https://medium.com/wdstack/bootstrap-4-hidden-visible-dd969a4c5854
+
