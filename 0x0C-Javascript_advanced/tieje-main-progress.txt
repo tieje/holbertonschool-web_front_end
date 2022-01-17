@@ -1,0 +1,5 @@
+1/17/2021
+resources for quickly testing JS
+https://stackoverflow.com/questions/8869783/how-to-quickly-test-some-javascript-code
+
+http://railsdotnext.com/experiment/jssandbox.html
