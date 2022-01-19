@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Task 4</title>
+  </head>
+
+  <body></body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript">
+    function createFamilyTree() {
+      const unique_names = ["none", "Guillaume", "Paulette", "Antoine"];
+      const unique_headers = ["Firstname", "Lastname"];
+      $("body").append("<table>");
+      $("table").append("<thead>", "<tbody>");
+      $("thead").append("<tr>");
+      $("tbody").append("<tr>", "<tr>", "<tr>");
+      for (let i = 0; i < 2; i++) {
+        $("tr:first").append("<th>");
+        $("th:last").text(unique_headers[i]);
+      }
+      for (let i = 1; i < 4; i++) {
+        for (let j = 0; j < 2; j++) {
+          $(`tr:eq(${i})`).append("<td>");
+          if (j == 0) {
+            $("td:last").text(unique_names[i]);
+          }
+        }
+      }
+      $("tr td:last-child").text("Salva");
+    }
+    function replaceFamilyTree() {
+      $("tbody").html(`
+        <tr>
+          <td>Gerard</td>
+          <td>Bonissa</td>
+        </tr>
+      `);
+      /*
+      // my initial method
+      $("tbody").replaceWith("<tr>");
+      $("tr:last").append("<td>", "<td>");
+      $("td:first").text("Gerard");
+      $("td:last").append("Bonissa");
+      */
+    }
+    createFamilyTree();
+    replaceFamilyTree();
+  </script>
+</html>
