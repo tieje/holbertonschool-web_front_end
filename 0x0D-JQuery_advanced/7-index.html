@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Task 7</title>
+  </head>
+  <body></body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript">
+    function createSearchForm() {
+      $("body").append(
+        "<input type='text'>" + "<input class='submit' type='submit'>" + "<ul>"
+      );
+      $(".submit").click(function () {
+        queryWikipedia($("input:nth-of-type(1)").val());
+      });
+    }
+    function addNewArticle(id, title, snippet) {
+      const li =
+        `<li>` + `<p><span>${id} - <b>${title}</b></span>` + `<p>${snippet}`;
+      $("ul").append(li);
+    }
+    function queryWikipedia(search) {
+      $.ajax({
+        dataType: "json",
+        url: `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${search}&format=json&callback=?`,
+        success: function (res) {
+          if (res.error) {
+            console.log("Empty search!");
+          } else {
+            res.query.search.forEach(({ title, pageid, snippet }) =>
+              addNewArticle(pageid, title, snippet)
+            );
+          }
+        },
+      });
+    }
+    createSearchForm();
+    // https://www.mediawiki.org/wiki/API:Search
+  </script>
+</html>

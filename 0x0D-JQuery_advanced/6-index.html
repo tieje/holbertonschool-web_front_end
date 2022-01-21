@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Task 6</title>
+  </head>
+
+  <body></body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript">
+    function createFamilyTree() {
+      $("body").append("<table>");
+      $("table").append("<thead>", "<tbody>");
+      $("thead").append("<tr>");
+      $("thead tr").append("<th>", "<th>");
+      $("th:first").text("Firstname");
+      $("th:last").text("Lastname");
+    }
+    function addNewMember(firstName, lastName, position) {
+      if (position == "before") {
+        $("tbody").prepend("<tr>");
+        $("tbody tr").append("<td>", "<td>", "<td>");
+        $("tbody tr td:first").text(firstName);
+        $("tbody tr td:nth-child(2)").text(lastName);
+        $("tbody tr td:last")
+          .text("(x)")
+          .click(function () {
+            $(this).parent("tr").remove();
+          })
+          .css("background", "orange");
+      } else {
+        $("tbody").append("<tr>");
+        $("tr:last").append("<td>", "<td>", "<td>");
+        $("tr:last td:first").text(firstName);
+        $("tr:last td:nth-child(2)").text(lastName);
+        $("tr:last td:last")
+          .text("(x)")
+          .click(function () {
+            $(this).parent("tr").remove();
+          })
+          .css("background", "orange");
+      }
+    }
+    function createForm() {
+      $("body").prepend("<form>");
+      $("body form").append("<input>", "<input>", "<select>", "<input>");
+      $("input").attr("type", "text");
+      $("select").append("<option>", "<option>");
+      $("select option:first").text("Before");
+      $("select option:first").attr("value", "Before");
+      $("option:last").text("After");
+      $("option:last").attr("value", "After");
+      $("form input:nth-of-type(3)").attr("type", "submit");
+      $("form input:nth-of-type(3)").attr("value", "Submit");
+    }
+    createFamilyTree();
+    addNewMember("Guillaume", "Salva");
+    addNewMember("Arielle", "Snizt");
+    addNewMember("Fanette", "Snizt");
+    addNewMember("Gerard", "Snizt");
+    addNewMember("Victor", "Snizt");
+    createForm();
+  </script>
+</html>
