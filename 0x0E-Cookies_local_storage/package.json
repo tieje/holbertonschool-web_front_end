@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "scripts": {
+    "s": "node_modules/.bin/webpack-dev-server"
+  }
+}
